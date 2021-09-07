@@ -1,0 +1,19 @@
+{
+  "name": "f30family",
+  "version": "0.0.1",
+  "description": "FAQ для BMW 3-er f30",
+  "main": "index.js",
+  "authors": {
+    "name": "Ernest Gilyazov",
+    "email": ""
+  },
+  "repository": "https://github.com/keztheslayer/f30family/f30family",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
