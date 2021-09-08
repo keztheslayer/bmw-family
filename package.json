@@ -1,16 +1,16 @@
 {
-  "name": "f30family",
+  "name": "bmw-family",
   "version": "0.0.1",
-  "description": "FAQ для BMW 3-er f30",
+  "description": "FAQ для владельцев BMW",
   "main": "index.js",
   "authors": {
-    "name": "Ernest Gilyazov",
-    "email": ""
+    "name": "Ernest Gilyazov"
   },
-  "repository": "https://github.com/keztheslayer/f30family/f30family",
+  "repository": "https://github.com/keztheslayer/bmw-family/bmw-family",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "deploy": "cd src/.vuepress/dist && rsync --archive --compress --delete . u1469188@bmw-family.ru://var/www/u1469188/data/www/bmw-family.ru/"
   },
   "license": "MIT",
   "devDependencies": {
