@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'FAQ для владельцев BMW',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,26 +34,37 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Общее',
+        link: '/general/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'f30',
+        link: '/f30/',
       },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
     ],
     sidebar: {
-      '/guide/': [
+      '/general/': [
         {
-          title: 'Guide',
+          title: 'Общее',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+          ]
+        },
+      ],
+      '/f30/' : [
+        {
+            title: 'BMW 3-er f30',
+            collapsable: true,
+            children: [
+            '/f30/',
+            ]
+        },
+        {
+          title: 'Полезности',
+          collapsable: false,
+          children: [
+            '/f30/partnumbers/wipers',
           ]
         }
       ],

@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: FAQ для BMW 3-er f30
-actionText: Quick Start →
-actionLink: /guide/
+heroImage: /images/f30fam.jpg
+tagline: FAQ для владельцев BMW
+actionText: Перейти к f30 →
+actionLink: /f30/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: Ништяки
+  details: Полезные артикулы
+- title: Лайфхаки
+  details: Инфа от бывалых
+- title: Что-то еще
+  details: По-любому это ещё не всё
 footer: Made by Ernest Gilyazov with ❤️
 ---
